@@ -44,7 +44,7 @@ This activity guides you through building a simple CRUD API using Prisma and Exp
    const prisma = new PrismaClient();
    module.exports = prisma;
    ```
-1. In `prisma/seed.js`, seed 10 players into the database. Refer to [the docs on how to create related records](https://www.prisma.io/docs/concepts/components/prisma-client/relation-queries#create-a-related-record).
+1. In `prisma/seed.js`, seed 10 players into the database. Refer to [the docs on how to create multiple records](https://www.prisma.io/docs/orm/prisma-client/queries/crud#create-multiple-records).
    ```js
    const prisma = require("../prisma");
    const seed = async () => {
