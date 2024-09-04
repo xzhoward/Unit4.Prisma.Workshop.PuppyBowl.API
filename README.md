@@ -75,7 +75,7 @@ This activity guides you through building a simple CRUD API using Prisma and Exp
 
 ### Serve the Data with Express
 
-1. Install Express and create a server with a `/players` router.
+1. Install Express and create a server.
    - `npm install express morgan`
    - `npm install -D nodemon`
    - Add a script to your `package.json` file that starts your application:
