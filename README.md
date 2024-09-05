@@ -88,6 +88,7 @@ This activity guides you through building a simple CRUD API using Prisma and Exp
    - `GET /api/players` - returns an array of all players
    - `POST /api/players` - creates a new player with the information provided in the request body
    - `GET /api/players/:id` - returns a single player with the specified id
+   - `PUT /api/players/:id` - overwrites the player status to **field** or **bench** with the information provided in the request body
    - `DELETE /api/players/:id` - deletes the player with the specified id
 
 You now have a fully working CRUD API!
